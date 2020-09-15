@@ -20,22 +20,28 @@ heroku buildpacks:set jincod/dotnetcore
 ### .NET Core edge
 
 ```
-heroku buildpacks:set https://github.com/jincod/dotnetcore-buildpack
+heroku buildpacks:set https://github.com/RiadGahlouz/dotnetcore-buildpack
 ```
 
 ### .NET Core Preview release
 
 ```
-heroku buildpacks:set https://github.com/jincod/dotnetcore-buildpack#preview
+heroku buildpacks:set https://github.com/RiadGahlouz/dotnetcore-buildpack#preview
+```
+
+### .NET Core WORKER Dyno
+
+```
+heroku buildpacks:set https://github.com/RiadGahlouz/dotnetcore-buildpack#worker
 ```
 
 ### Previous releases
 
 ```
-heroku buildpacks:set https://github.com/jincod/dotnetcore-buildpack#version
+heroku buildpacks:set https://github.com/RiadGahlouz/dotnetcore-buildpack#version
 ```
 
-Available [releases](https://github.com/jincod/dotnetcore-buildpack/releases)
+Available [releases](https://github.com/RiadGahlouz/dotnetcore-buildpack/releases)
 
 More info
 
